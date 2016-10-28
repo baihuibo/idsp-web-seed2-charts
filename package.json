@@ -1,0 +1,40 @@
+{
+  "name": "idsp-web-seed2-charts",
+  "version": "1.0.0",
+  "description": "charts 统计图组件",
+  "main": "src/charts.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baihuibo/idsp-web-seed2-charts.git"
+  },
+  "keywords": [
+    "angular",
+    "ts",
+    "typescript",
+    "echarts",
+    "idsp"
+  ],
+  "author": "baihuibo@hotmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baihuibo/idsp-web-seed2-charts/issues"
+  },
+  "homepage": "https://github.com/baihuibo/idsp-web-seed2-charts#readme",
+  "devDependencies": {
+    "angular": "^1.5.8",
+    "plugin-typescript": "^5.2.7",
+    "systemjs": "^0.19.39",
+    "systemjs-plugin-css": "^0.1.31",
+    "systemjs-plugin-json": "^0.2.0",
+    "systemjs-plugin-less": "^0.1.2",
+    "systemjs-plugin-text": "0.0.9",
+    "tslib": "^1.0.0",
+    "typescript": "next"
+  },
+  "dependencies": {
+    "echarts": "^3.2.3"
+  }
+}
