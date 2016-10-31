@@ -1,6 +1,6 @@
 ///<reference path="../typings/charts.d.ts"/>
 // Created by baihuibo on 2016/10/14.
-import echarts from "echarts/index.js";
+import echarts from "echarts/dist/echarts.min.js";
 import {module} from "angular";
 const modName = 'charts';
 
@@ -49,3 +49,7 @@ mod.directive('charts', function () {
         }
     }
 });
+
+declare module "echarts/dist/echarts.min.js" {
+    export = ECharts;
+}
