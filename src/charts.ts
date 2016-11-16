@@ -40,10 +40,9 @@ mod.directive('charts', function () {
                     $scope.instance = myChart = echarts.init(nativeEl);
 
                     $scope.$watch('option', function (option) {
+                        myChart.clear();
                         if (option) {
                             myChart.setOption(option);
-                        } else {
-                            myChart.clear();
                         }
                     });
                 }, 13);
